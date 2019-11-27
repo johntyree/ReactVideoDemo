@@ -1,7 +1,16 @@
 import React from 'react';
 
 class SearchBar extends React.Component {
-    state = { term: '' };
+    constructor(props) {
+      super(props);
+      this.searchInput = React.createRef();
+      this.state = { term: this.props.defaultQuery };
+    }
+
+    focus = () => {
+      this.searchInput.current.focus();
+      this.searchInput.current.select();
+    }
 
     onInputChange = (event) => {
         this.setState({ term: event.target.value });
@@ -10,6 +19,7 @@ class SearchBar extends React.Component {
     onFormSubmit = (event) => {
       event.preventDefault();
       this.props.onFormSubmit(this.state.term);
+      this.searchInput.current.select();
     }
 
     render() {
@@ -19,9 +29,10 @@ class SearchBar extends React.Component {
                   <div className="field">
                       <label>Video Search</label>
                       <input
-                        type="text"
-                        value={this.state.term}
-                        onChange={this.onInputChange}
+                         ref={this.searchInput}
+                         type="text"
+                         value={this.state.term}
+                         onChange={this.onInputChange}
                       />
                   </div>
               </form>

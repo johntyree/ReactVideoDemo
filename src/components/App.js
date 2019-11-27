@@ -5,13 +5,20 @@ import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
 
 class App extends React.Component {
-  state = {
-    videos: [],
-    selectedVideo: null
-  };
 
-  componentDidUpdate() {
-    console.log(this.searchBar);
+  constructor(props) {
+    super(props);
+    this.defaultQuery = 'bananas';
+    this.state = {
+      videos: [],
+      selectedVideo: null,
+    };
+    this.searchBar = React.createRef();
+  }
+
+  componentDidMount() {
+    this.searchBar.current.focus();
+    this.onTermSubmit(this.defaultQuery);
   }
 
   onTermSubmit = async term => {
@@ -36,7 +43,9 @@ class App extends React.Component {
   render() {
       return (
           <div className="ui container">
-            <SearchBar onFormSubmit={this.onTermSubmit}/>
+            <SearchBar ref={this.searchBar}
+                       defaultQuery={this.defaultQuery}
+                       onFormSubmit={this.onTermSubmit}/>
             <div className="ui grid">
               <div className="ui row">
                 <div className="eleven wide column">
