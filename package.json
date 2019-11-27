@@ -2,7 +2,7 @@
   "name": "videos",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://johntyree.github.io/ReactVideoApp",
+  "homepage": "https://johntyree.github.io/ReactVideoDemo",
   "dependencies": {
     "axios": "^0.18.1",
     "react": "^16.12.0",
