@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ReactVideoApp/static/css/main.4a966e5b.chunk.css",
-    "main.js": "/ReactVideoApp/static/js/main.8a35d834.chunk.js",
-    "main.js.map": "/ReactVideoApp/static/js/main.8a35d834.chunk.js.map",
-    "runtime-main.js": "/ReactVideoApp/static/js/runtime-main.9f8c7547.js",
-    "runtime-main.js.map": "/ReactVideoApp/static/js/runtime-main.9f8c7547.js.map",
-    "static/js/2.636f9ff4.chunk.js": "/ReactVideoApp/static/js/2.636f9ff4.chunk.js",
-    "static/js/2.636f9ff4.chunk.js.map": "/ReactVideoApp/static/js/2.636f9ff4.chunk.js.map",
-    "index.html": "/ReactVideoApp/index.html",
-    "precache-manifest.ad6490e2cf3ec40423dad7b0d3d4e14b.js": "/ReactVideoApp/precache-manifest.ad6490e2cf3ec40423dad7b0d3d4e14b.js",
-    "service-worker.js": "/ReactVideoApp/service-worker.js",
-    "static/css/main.4a966e5b.chunk.css.map": "/ReactVideoApp/static/css/main.4a966e5b.chunk.css.map"
+    "main.css": "/ReactVideoDemo/static/css/main.4a966e5b.chunk.css",
+    "main.js": "/ReactVideoDemo/static/js/main.8a35d834.chunk.js",
+    "main.js.map": "/ReactVideoDemo/static/js/main.8a35d834.chunk.js.map",
+    "runtime-main.js": "/ReactVideoDemo/static/js/runtime-main.0507a08d.js",
+    "runtime-main.js.map": "/ReactVideoDemo/static/js/runtime-main.0507a08d.js.map",
+    "static/js/2.636f9ff4.chunk.js": "/ReactVideoDemo/static/js/2.636f9ff4.chunk.js",
+    "static/js/2.636f9ff4.chunk.js.map": "/ReactVideoDemo/static/js/2.636f9ff4.chunk.js.map",
+    "index.html": "/ReactVideoDemo/index.html",
+    "precache-manifest.b5faf22a7be1f25af7599e7a06189a71.js": "/ReactVideoDemo/precache-manifest.b5faf22a7be1f25af7599e7a06189a71.js",
+    "service-worker.js": "/ReactVideoDemo/service-worker.js",
+    "static/css/main.4a966e5b.chunk.css.map": "/ReactVideoDemo/static/css/main.4a966e5b.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.9f8c7547.js",
+    "static/js/runtime-main.0507a08d.js",
     "static/js/2.636f9ff4.chunk.js",
     "static/css/main.4a966e5b.chunk.css",
     "static/js/main.8a35d834.chunk.js"
